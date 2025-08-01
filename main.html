@@ -9,17 +9,24 @@
 <body>
 	<!-- the entire body must be written by student -->
 	<form method="post">
-		Name <input type="text" id="name" required/>
+		<label for="name">Name</label>
+		<input type="text" id="name" required/>
+		<label for="email">Email</label>
 		Email <input type="email" id="email" required/>
-		Gender <input name="gender" type="radio" /> <input name="gender" type="radio" /> 
-		Car Brands <select id="cars">
+		<label for="gender">gender</label>
+		<input name="gender" type="radio" /> <input name="gender" type="radio" /> 
+		<label for="cars">Car Brands</label>
+		<select id="cars">
 			<option value="BMW">BWM</option>
 			<option value="Audi">Audi</option>
 			<option value="Mercedez">Mercedez</option>
 		</select>
-		Car Age <input type="number"  id="carage" required/>
-		Date of purchase(dop) <input type="date" id="dop" required />
-		Password <input type="password" id="password" required/>
+		<label for="carage">Car Age</label>
+		<input type="number"  id="carage" required/>
+		<label for="dop">Date of purchase(dop)</label>
+		<input type="date" id="dop" required />
+		<label for="password">Password</label>
+		<input type="password" id="password" required/>
 		<button type="submit">Submit Button</button>
 	</form>
     <script type="text/javascript" src="./script.js">
